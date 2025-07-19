@@ -2,7 +2,6 @@
 #define LAB109_CHEMKIN_REACTION_CONSTANTS_H
 #include <span>
 
-#include "Chemkin/constants.hh"
 
 namespace lab109::chemkin::reaction_constants {
 

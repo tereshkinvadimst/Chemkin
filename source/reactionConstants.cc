@@ -3,6 +3,7 @@
 
 #include <cmath>
 
+#include "Chemkin/constants.hh"
 
 auto lab109::chemkin::reaction_constants::areniusConstant(double A,
                                                           double N,

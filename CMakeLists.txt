@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.30 FATAL_ERROR)
 
 project(CHEMKIN LANGUAGES CXX)
 
-add_library(chemkin SHARED)
+add_library(chemkin STATIC)
 add_library(lab109::chemkin ALIAS chemkin)
 
 target_include_directories(
