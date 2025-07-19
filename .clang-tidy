@@ -1,0 +1,16 @@
+Checks: "google-*,\
+perfomance-*,\
+portability-*,\
+clang-analyzer-*,\
+bugprone-*,\
+modernize-*,\
+cppcoreguidelines-*,\
+misc-*,\
+"
+CheckOptions:
+  - key:   modernize-use-default-member-init.UseAssignment
+    value: '1'
+  - key:   modernize-use-equals-default.IgnoreMacros
+    value: '0'
+  - key:   modernize-use-auto.MinTypeNameLength
+    value: '100'
