@@ -1,2 +1,1 @@
-
-target_sources(chemkin PRIVATE core.cc kinetics.cc reactionConstants.cc)
+target_sources(chemkin PRIVATE kinetics.cc reactionConstants.cc)
